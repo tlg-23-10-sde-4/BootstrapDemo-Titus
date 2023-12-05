@@ -19,6 +19,11 @@ body {
     height: 400px;
     width: 47.20%;
     border: groove 10px burlywood;
+    flex-direction: column;
+    
+}
+.jeepPicHeader {
+    width: 100%;
 }
 .jeepVid {
     background-image: url(https://images.pexels.com/photos/1008739/pexels-photo-1008739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
@@ -28,7 +33,10 @@ body {
     height: fit-content;
     border: groove 10px burlywood;
 }
-h1 {
+
+article > h1 {
+    display: flex;
+    flex-direction: column;
     background: linear-gradient(45deg, burlywood, rgb(39, 80, 36));
     padding: 5px;
 }
