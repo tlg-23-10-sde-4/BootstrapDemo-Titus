@@ -1,14 +1,16 @@
 body {
     background-image: url(https://lh3.googleusercontent.com/pw/ADCreHfu1TTyXiDi2min1MAPWuL7npFn1B0VKdm4IyG5nhUtIuE5sbB8dguBv5RVj5huD4MclVPDFrasGrd-DaI7iHviZ9Pja5k9m0d0CGMbnXhl-R1ZPNab=w2400?source=screenshot.guru);
 }
-.navbar {
-    background-image: url(https://lh3.googleusercontent.com/pw/ADCreHcqWeKFwkswxI6Nt5i389yKXcW9wxi6LI5fkOha_cqmYTiHWfRyL_BQSyBU9GepwMNyrMokjhsFM6r__rkRlfsFf1QgK5w6OPxSN-W7-hOVW9Ye0bE_=w2400?source=screenshot.guru);
-}
+
 
 body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.navbar {
+    background-image: url(https://lh3.googleusercontent.com/pw/ADCreHcqWeKFwkswxI6Nt5i389yKXcW9wxi6LI5fkOha_cqmYTiHWfRyL_BQSyBU9GepwMNyrMokjhsFM6r__rkRlfsFf1QgK5w6OPxSN-W7-hOVW9Ye0bE_=w2400?source=screenshot.guru);
 }
 
 .jeepPic {
@@ -17,14 +19,11 @@ body {
     display: flex;
     align-items: center;
     height: 400px;
-    width: 47.20%;
+    width: 580px;
     border: groove 10px burlywood;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
-.jeepPicHeader {
-    width: 100%;
-}
+
 .jeepVid {
     background-image: url(https://images.pexels.com/photos/1008739/pexels-photo-1008739.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     margin: 10px;
@@ -39,4 +38,8 @@ article > h1 {
     flex-direction: column;
     background: linear-gradient(45deg, burlywood, rgb(39, 80, 36));
     padding: 5px;
+}
+
+.jeepPicHeader {
+    width: 100%;
 }
