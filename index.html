@@ -11,6 +11,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -33,7 +35,12 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a
+                class="nav-link"
+                href="https://photos.google.com/share/AF1QipNQ-qJx0YOcpHCibAfASfihi5qruzpKxWugnkx5fphcqC3-Wjw0F8nsKiVjj4AqFw?key=Q244T0xqRGhFaGNBR3NJclNRRU11MjNfbmE2TTZ3"
+                target="_blank"
+                >Link to Album</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -47,7 +54,7 @@
               </a>
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item" href=".jeepPic">Jeep Pictures</a>
+                  <a class="dropdown-item" href="#jeepPic">Jeep Pictures</a>
                 </li>
                 <li>
                   <a class="dropdown-item" href="#jeepVid">Jeep videos</a>
@@ -77,60 +84,65 @@
       </div>
     </nav>
     <article class="jeepPic">
-      <h1>Jeep Pictures</h1>
-      <div id="carouselExample" class="carousel slide">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://lh3.googleusercontent.com/pw/ADCreHdKaeX5u6cOkW-vJKvPDMxitpT0OIlFRRdm4wc217mDcBJtUg962hhccHIyv956PPW030y6u3lBO89UDHDLoZbPCsNDnpNFKEMBF8pOLBhofv3gy-04=w600-h315-p-k"
-              class="d-block w-100"
-              alt="..."
-            />
+      <article id="jeepPic">
+        <h1>Jeep Pictures</h1>
+        <div id="carouselExample" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://lh3.googleusercontent.com/pw/ADCreHdKaeX5u6cOkW-vJKvPDMxitpT0OIlFRRdm4wc217mDcBJtUg962hhccHIyv956PPW030y6u3lBO89UDHDLoZbPCsNDnpNFKEMBF8pOLBhofv3gy-04=w600-h315-p-k"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://lh3.googleusercontent.com/pw/ADCreHdVP51FQSM4p8dbZ860IvC-_yQB5vcUT60MUPcXhxte3GvpsBy1xQOmcjdQ5bkyO8OAoRVn55iDS_8TBBC77OQGxgILAZUrk-VvBX0-sg5q4Ss99sxG=w2400?source=screenshot.guru"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://lh3.googleusercontent.com/pw/ADCreHc5xM-EmBvDZGmVPC0FUHCHMSPiTNqsRbCmauOpgzQtKTHkhfdmaqzQwvvkZ8B0XO_u1D3vyTSjvlJ7VHgDkewLFREX82fsWy-mQoVLnOENFQ2q_n0f=w600-h315-p-k"
+                class="d-block w-100"
+                alt="..."
+              />
+            </div>
           </div>
-          <div class="carousel-item">
-            <img
-              src="https://lh3.googleusercontent.com/pw/ADCreHdVP51FQSM4p8dbZ860IvC-_yQB5vcUT60MUPcXhxte3GvpsBy1xQOmcjdQ5bkyO8OAoRVn55iDS_8TBBC77OQGxgILAZUrk-VvBX0-sg5q4Ss99sxG=w2400?source=screenshot.guru"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://lh3.googleusercontent.com/pw/ADCreHc5xM-EmBvDZGmVPC0FUHCHMSPiTNqsRbCmauOpgzQtKTHkhfdmaqzQwvvkZ8B0XO_u1D3vyTSjvlJ7VHgDkewLFREX82fsWy-mQoVLnOENFQ2q_n0f=w600-h315-p-k"
-              class="d-block w-100"
-              alt="..."
-            />
-          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExample"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExample"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+      </article>
     </article>
-    <article id="jeepVid">
-      <h1>Jeep Video</h1>
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/1FmheChL3w8"
-        frameborder="0"
-        allowfullscreen
-      ></iframe>
+    <article class="jeepVid">
+      <article id="jeepVid">
+        <h1>Jeep Video</h1>
+
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/1FmheChL3w8"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
+      </article>
     </article>
 
     <script
